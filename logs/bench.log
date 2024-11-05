@@ -1,0 +1,86 @@
+2024-10-30 10:26:17,376 DEBUG cd frappe-bench && python3 -m venv env
+2024-10-30 10:26:19,432 DEBUG cd frappe-bench && /home/shahid/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-10-30 10:26:26,157 DEBUG cd frappe-bench && /home/shahid/frappe-bench/env/bin/python -m pip install --quiet wheel
+2024-10-30 10:26:28,035 LOG Getting frappe
+2024-10-30 10:26:28,036 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2024-10-30 10:26:39,266 LOG Installing frappe
+2024-10-30 10:26:39,267 DEBUG cd /home/shahid/frappe-bench && /home/shahid/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/shahid/frappe-bench/apps/frappe 
+2024-10-30 10:30:09,229 DEBUG cd /home/shahid/frappe-bench/apps/frappe && yarn install --check-files
+2024-10-30 10:31:22,824 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-10-30 10:31:22,824 DEBUG cd frappe-bench && bench build
+2024-10-30 10:31:22,915 INFO /usr/local/bin/bench build
+2024-10-30 10:31:35,029 LOG setting up backups
+2024-10-30 10:31:35,036 LOG backups were set up
+2024-10-30 10:31:35,036 INFO Bench frappe-bench initialized
+2024-10-30 10:31:53,123 INFO /usr/local/bin/bench start
+2024-10-30 10:31:53,289 INFO /usr/local/bin/bench schedule
+2024-10-30 10:31:53,333 INFO /usr/local/bin/bench worker
+2024-10-30 10:31:53,335 INFO /usr/local/bin/bench serve --port 8000
+2024-10-30 10:31:53,337 INFO /usr/local/bin/bench watch
+2024-10-30 10:32:32,075 INFO /usr/local/bin/bench new-site dcode.com
+2024-10-30 10:33:59,565 INFO /usr/local/bin/bench --site dcode.com add-to-hosts
+2024-10-30 11:12:43,714 INFO /usr/local/bin/bench find .
+2024-10-30 11:14:13,306 INFO /usr/local/bin/bench new-app library_management
+2024-10-30 11:14:13,310 LOG creating new app library_management
+2024-10-30 11:16:08,294 LOG Installing library_management
+2024-10-30 11:16:08,295 DEBUG cd /home/shahid/frappe-bench && /home/shahid/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/shahid/frappe-bench/apps/library_management 
+2024-10-30 11:16:10,884 DEBUG bench build --app library_management
+2024-10-30 11:16:11,000 INFO /usr/local/bin/bench build --app library_management
+2024-10-30 11:16:12,425 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-10-30 11:59:06,596 INFO /usr/local/bin/bench new-site library.localhost
+2024-10-30 12:00:01,723 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-30 12:30:09,841 INFO /usr/local/bin/bench --site library.localhost add-to-hosts
+2024-10-30 13:16:22,211 INFO /usr/local/bin/bench start
+2024-10-30 13:16:22,667 INFO /usr/local/bin/bench watch
+2024-10-30 13:16:22,667 INFO /usr/local/bin/bench schedule
+2024-10-30 13:16:22,759 INFO /usr/local/bin/bench serve --port 8000
+2024-10-30 13:16:22,762 INFO /usr/local/bin/bench worker
+2024-10-30 13:18:58,891 INFO /usr/local/bin/bench --site library.localhost add-to-hosts
+2024-10-30 13:22:36,197 INFO /usr/local/bin/bench --site library.localhost install-app library_management
+2024-10-30 13:25:45,528 INFO /usr/local/bin/bench --site library.localhost list-apps
+2024-10-30 13:32:40,998 INFO /usr/local/bin/bench --site library.localhost console
+2024-10-30 13:33:30,555 INFO /usr/local/bin/bench --site library.localhost mariadb
+2024-10-30 13:36:29,914 INFO /usr/local/bin/bench --help
+2024-10-30 13:47:21,352 INFO /usr/local/bin/bench set-config -g developer_mode true
+2024-10-30 13:48:10,659 INFO /usr/local/bin/bench start
+2024-10-30 13:48:11,124 INFO /usr/local/bin/bench schedule
+2024-10-30 13:48:11,135 INFO /usr/local/bin/bench worker
+2024-10-30 13:48:11,177 INFO /usr/local/bin/bench serve --port 8000
+2024-10-30 13:48:11,181 INFO /usr/local/bin/bench watch
+2024-10-30 15:10:35,509 INFO /usr/local/bin/bench --site library.localhost mariadb
+2024-10-30 17:11:02,870 INFO /usr/local/bin/bench start
+2024-10-30 17:11:03,050 INFO /usr/local/bin/bench serve --port 8000
+2024-10-30 17:11:03,050 INFO /usr/local/bin/bench worker
+2024-10-30 17:11:03,050 INFO /usr/local/bin/bench watch
+2024-10-30 17:11:03,068 INFO /usr/local/bin/bench schedule
+2024-10-30 18:00:02,090 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-01 09:36:40,901 INFO /usr/local/bin/bench start
+2024-11-01 09:36:41,356 INFO /usr/local/bin/bench serve --port 8000
+2024-11-01 09:36:41,370 INFO /usr/local/bin/bench worker
+2024-11-01 09:36:41,473 INFO /usr/local/bin/bench watch
+2024-11-01 09:36:41,474 INFO /usr/local/bin/bench schedule
+2024-11-01 12:00:01,354 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-03 14:55:05,991 INFO /usr/local/bin/bench start
+2024-11-03 14:55:06,690 INFO /usr/local/bin/bench watch
+2024-11-03 14:55:06,713 INFO /usr/local/bin/bench serve --port 8000
+2024-11-03 14:55:06,753 INFO /usr/local/bin/bench worker
+2024-11-03 14:55:06,764 INFO /usr/local/bin/bench schedule
+2024-11-04 09:21:30,046 INFO /usr/local/bin/bench start
+2024-11-04 09:21:30,557 INFO /usr/local/bin/bench watch
+2024-11-04 09:21:30,577 INFO /usr/local/bin/bench worker
+2024-11-04 09:21:30,587 INFO /usr/local/bin/bench schedule
+2024-11-04 09:21:30,597 INFO /usr/local/bin/bench serve --port 8000
+2024-11-04 09:32:45,793 INFO /usr/local/bin/bench --site library.localhost mariadb
+2024-11-04 12:00:01,686 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-04 12:03:26,543 INFO /usr/local/bin/bench set-config -g server_script_enabled 1
+2024-11-04 12:03:33,741 INFO /usr/local/bin/bench start
+2024-11-04 12:03:33,943 INFO /usr/local/bin/bench schedule
+2024-11-04 12:03:33,956 INFO /usr/local/bin/bench watch
+2024-11-04 12:03:33,979 INFO /usr/local/bin/bench serve --port 8000
+2024-11-04 12:03:33,985 INFO /usr/local/bin/bench worker
+2024-11-04 18:00:01,532 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-05 09:36:11,085 INFO /usr/local/bin/bench start
+2024-11-05 09:36:11,585 INFO /usr/local/bin/bench worker
+2024-11-05 09:36:11,595 INFO /usr/local/bin/bench schedule
+2024-11-05 09:36:11,603 INFO /usr/local/bin/bench watch
+2024-11-05 09:36:11,626 INFO /usr/local/bin/bench serve --port 8000

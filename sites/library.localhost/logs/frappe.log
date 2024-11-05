@@ -1,0 +1,6 @@
+2024-11-01 17:49:42,808 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"name":"LMS00005","owner":"Administrator","creation":"2024-11-01 17:49:17.227949","modified":"2024-11-01 17:49:39.094165","modified_by":"Administrator","docstatus":0,"idx":0,"library_member":"p3vavk2c8i","from_date":"2024-11-20","full_name":"Shahid P J","paid":0,"doctype":"Library Membership"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-11-01 17:51:00,186 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"name":"LMS00005","owner":"Administrator","creation":"2024-11-01 17:49:17.227949","modified":"2024-11-01 17:49:39.094165","modified_by":"Administrator","docstatus":0,"idx":0,"library_member":"p3vavk2c8i","from_date":"2024-11-20","full_name":"Shahid P J","paid":0,"doctype":"Library Membership"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
